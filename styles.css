@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: rgba(0, 0, 0, 0.87);
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(39, 30, 30);
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #222;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -50,25 +50,30 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  color: white;
 }
 .nav a:hover {
-  color: white
+  color: greenyellow;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
-  background-size: cover;
+  background: url('images/aerial-view-of-the-austin-skyline-on-a-summer-evening-panorama-6-rob-greebon.jpg') no-repeat top;
+  background-size: cover; 
+  height:500px;
   overflow: hidden;
   padding-top: 60px;
-}
+  border-bottom: thick double  #3c2a55e8;
+  height: 550px;
+  
+  }
 header {
   line-height: 1.5;
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
@@ -77,26 +82,28 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #3c2a55e8;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #3c2a5591;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  color: white;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -110,14 +117,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgb(143, 93, 140);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #3b78a1;
 }
 
 footer {
